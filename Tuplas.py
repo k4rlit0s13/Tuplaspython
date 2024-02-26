@@ -9,9 +9,19 @@ ciudad=input("Ciudad: ")
 país=input("País: ")
 dirección=input("Dirección: ")
 
-educación=input("Educación(título):")
-experciaLaboral=input("Experiencia laboral en: ")
+educación=input("Educación:")
+título=input("Que título posees: ")
+
+expercia=input("Que experiencia laboral tienes: ")
+código=input("Experiencia en código: ")
+
+infousuario=tuple((nombre,edad,altura))
+direcUsuario=tuple((ciudad,país,dirección))
+estudioOusuario=tuple((educación,título)
+expLaboral=tuple((expercia,código))
 
 
-infousuario=tuple((nombre,edad,altura,ciudad,país,dirección,educación,experciaLaboral))
-print(F"""El usuario de nombre {infousuario[0]} con edad de {infousuario[0]} años""")
+print(F"""
+El usuario de nombre {infousuario[0]} con edad de {infousuario[0]} años, proveniente 
+del país{direcUsuario[1]} {[]}{[]}
+""")
